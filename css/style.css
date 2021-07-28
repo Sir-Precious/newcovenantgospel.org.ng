@@ -1,0 +1,131 @@
+.body {
+  overflow-x: hidden;
+}
+
+.navbar{
+    box-shadow: 2px 2px 8px #373435;
+    opacity: 0.9;
+}
+.navbar .nav-link {
+  font-size: 14px;
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+  text-transform: uppercase;
+}
+
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-image-1 {
+  background: url('../images/bible.jpeg');
+  background-size: cover;
+}
+
+.carousel-image-2 {
+  background: url('../images/church1.jpeg');
+  background-size: cover;
+}
+
+.carousel-image-3 {
+  background: url('../images/worship2.jpeg');
+  background-size: cover;
+}
+
+.btn-danger {
+  border: 1px solid #ED3237;
+  border-radius: 8px !important;
+  padding: 5px 20px !important;
+  font-size: 20px;
+  text-transform: uppercase;
+  background-color: #ED3237;
+}
+
+.icon-inner{
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+}
+
+.faqs{
+  padding: 10px;
+  max-width: 900px;
+  margin: auto;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+}
+
+.fas{
+    color: #3E4095;
+}
+
+
+a.custom-card,
+a.custom-card:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.custom-card {
+  box-shadow: 0 1rem 1rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+#testimony {
+  position: relative;
+  background: url('../images/bible.jpeg');
+  background-position: center;
+  min-height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#testimony .testimony-inner {
+  padding-top: 65px;
+  text-decoration: none;
+}
+
+#testimony a {
+  text-decoration: none;
+  color: white;
+}
+
+.church-banner {
+  position: relative;
+  background: url('../images/banner2.jpg');
+  min-height: 300px;
+  background-position: center;
+}
+
+.request {
+  position: relative;
+  background: url('../images/bible.jpeg');
+  min-height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+#assembly {
+  position: relative;
+  background: url('../images/bible.jpeg');
+  background-position: center;
+  min-height: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#students {
+  position: relative;
+  background: url('../images/register-3.jpg');
+  background-position: center;
+  min-height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.primary-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(62, 64, 149, 0.5);
+}
